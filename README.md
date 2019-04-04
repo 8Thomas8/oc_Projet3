@@ -1,14 +1,12 @@
 # oc_Projet3
 
 **Sujet:**
-
 En tant que développeur, on vous demande de lister les fonctionnalités dont a besoin la cliente et de proposer une solution technique adaptée. Vous devez donc sélectionner la solution qui vous semble la plus à même de répondre à son besoin.
 
 Vous devrez ensuite réaliser une première version de ce site correspondant à ses attentes.‌
 
 
 **Commentaire de l'évaluateur:**
-
 Bonne soutenance.
 
 Les choix des techno pour le développement du site ont bien été justifiés.
