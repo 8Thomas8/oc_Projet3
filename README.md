@@ -16,3 +16,10 @@ La présentation du site était assez complète également.
 La séance question/réponse était également bien gérée.
 
 Bonne continuation pour la suite.
+
+**Compétences évaluées:**
+
+* Lister les fonctionnalités demandées par un client
+* Analyser un cahier des charges
+* Rédiger les spécifications détaillées du projet
+* Choisir une solution technique adaptée parmi les solutions existantes si cela est pertinent
