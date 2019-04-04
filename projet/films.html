@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FPA - Les Films</title>
+  <meta name="description" content="Le site du festival des Films de Plein Air">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="navbar-header">
+            <div class="navbar-toggle visible-xs hidden-sm pull-left" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </div>
+            <a href="index.html" title="Accueil" class="navbar-brand">Films de Plein Air</a>
+          </div>
+        </div>
+        <div class="col-md-offset-4 col-md-5">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"><a href="index.html" title="Accueil">Accueil</a></li>
+              <li class="nav-item active"><a href="films.html" title="Films">Films</a></li>
+              <li class="nav-item"><a href="news.html" title="News">News</a></li>
+              <li class="nav-item"><a href="index.html#contact" title="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mainPage">
+    <div class="container sections">
+
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+          <h2 class="jumbotron">Les <span class="colorTitle">F</span>ilms</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+
+          <div class="movieSection">
+            <div id="movie1" class="movies">
+              <a href="#jpDesc" data-toggle="collapse" class="link-movies"><img src="/p3/img/films/jp.jpg" alt="Jurassik Park" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="jpInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Steven Spilberg</p>
+                <p><span class="bold">Année:</span> 1993</p>
+                <p><span class="bold">Casting:</span> Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Bob Peck</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 5 août 2019 - 22h45</p>
+
+                <a href="#jpBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="jpBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email1" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="jpDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>John Parker Hammond, le PDG de la puissante compagnie InGen, parvient à donner vie à des dinosaures grâce à la génétique et décide de les utiliser dans le cadre d’un parc d'attractions qu’il compte ouvrir sur une île au large du
+                    Costa Rica. Avant l'ouverture, il fait visiter le parc à un groupe d'experts pour obtenir leur aval. Pendant la visite, une tempête éclate et un informaticien corrompu par une entreprise rivale en profite pour couper les systèmes
+                    de sécurité afin de voler des embryons de dinosaures. En l'absence de tout système de sécurité pendant plusieurs heures, les dinosaures s'échappent sans mal, mais le cauchemar des visiteurs ne fait que commencer...
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="movie2" class="movies">
+              <a href="#btfDesc" data-toggle="collapse"><img src="/p3/img/films/btf.jpg" alt="Retour vers le futur" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="btfInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Robert Zemeckis</p>
+                <p><span class="bold">Année:</span> 1985</p>
+                <p><span class="bold">Casting:</span> Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover, Thomas F. Wilson</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 5 août 2019 - 00h00</p>
+
+                <a href="#btfBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="btfBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email2" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="btfDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>John Parker Hammond, le PDG de la puissante compagnie InGen, parvient à donner vie à des dinosaures grâce à la génétique et décide de les utiliser dans le cadre d’un parc d'attractions qu’il compte ouvrir sur une île au large du
+                    Costa Rica. Avant l'ouverture, il fait visiter le parc à un groupe d'experts pour obtenir leur aval. Pendant la visite, une tempête éclate et un informaticien corrompu par une entreprise rivale en profite pour couper les systèmes
+                    de sécurité afin de voler des embryons de dinosaures. En l'absence de tout système de sécurité pendant plusieurs heures, les dinosaures s'échappent sans mal, mais le cauchemar des visiteurs ne fait que commencer...
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="movie3" class="movies">
+              <a href="#rpoDesc" data-toggle="collapse"><img src="/p3/img/films/rpo.jpg" alt="Ready Player One" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="rpoInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Steven Spilberg</p>
+                <p><span class="bold">Année:</span> 2018</p>
+                <p><span class="bold">Casting:</span> Tye Sheridan, Olivia Cooke, Ben Mendelsohn, T. J. Miller, Simon Pegg, Mark Rylance</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 6 août 2019 - 22h45</p>
+
+                <a href="#rpoBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="rpoBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email3" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="rpoDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>John Parker Hammond, le PDG de la puissante compagnie InGen, parvient à donner vie à des dinosaures grâce à la génétique et décide de les utiliser dans le cadre d’un parc d'attractions qu’il compte ouvrir sur une île au large du
+                    Costa Rica. Avant l'ouverture, il fait visiter le parc à un groupe d'experts pour obtenir leur aval. Pendant la visite, une tempête éclate et un informaticien corrompu par une entreprise rivale en profite pour couper les systèmes
+                    de sécurité afin de voler des embryons de dinosaures. En l'absence de tout système de sécurité pendant plusieurs heures, les dinosaures s'échappent sans mal, mais le cauchemar des visiteurs ne fait que commencer...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+          <div class="movieSection">
+            <div id="movie4" class="movies">
+              <a href="#swDesc" data-toggle="collapse"><img src="/p3/img/films/sw4.jpg" alt="Star Wars IV" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="swInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> George Lucas</p>
+                <p><span class="bold">Année:</span> 1977</p>
+                <p><span class="bold">Casting:</span> Mark Hamill, Carrie Fisher, Harrison Ford, Peter Cushing, Alec Guinness</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 6 août 2019 - 00h00</p>
+
+                <a href="#swBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="swBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email4" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="swDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador,
+                    la princesse Leia Organa dissimule les plans de l'Etoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de
+                    protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan
+                    Kenobi, devenu ermite au coeur des montagnes désertiques de Tatooine...</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="movie5" class="movies">
+              <a href="#avtDesc" data-toggle="collapse"><img src="/p3/img/films/avt.jpg" alt="Avatar" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="avtInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> James Cameron</p>
+                <p><span class="bold">Année:</span> 2009</p>
+                <p><span class="bold">Casting:</span> Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodríguez, Giovanni Ribisi</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 7 août 2019 - 22h45</p>
+
+                <a href="#avtBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="avtBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email5" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="avtDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de
+                    puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. Parce que l'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à
+                    des " pilotes " humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale. Ces avatars sont des hybrides créés génétiquement en croisant l'ADN humain avec
+                    celui des Na'vi, les autochtones de Pandora. Sous sa forme d'avatar, Jake peut de nouveau marcher. On lui confie une mission d'infiltration auprès des Na'vi, devenus un obstacle trop conséquent à l'exploitation du précieux
+                    minerai. Mais tout va changer lorsque Neytiri, une très belle Na'vi, sauve la vie de Jake...</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="movie6" class="movies">
+              <a href="#lotrDesc" data-toggle="collapse"><img src="/p3/img/films/lotr.jpg" alt="Le Seigneur des anneau" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="lotrInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Peter Jackson</p>
+                <p><span class="bold">Année:</span> 2001</p>
+                <p><span class="bold">Casting:</span> Elijah Wood, Ian McKellen, Viggo Mortensen, Sean Astin</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 7 août 2019 - 00h00</p>
+
+                <a href="#lotrBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="lotrBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email6" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="lotrDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>Dans ce chapitre de la trilogie, le jeune et timide Hobbit, Frodon Sacquet, hérite d'un anneau. Bien loin d'être une simple babiole, il s'agit de l'Anneau Unique, un instrument de pouvoir absolu qui permettrait à Sauron, le
+                    Seigneur des ténèbres, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples. À moins que Frodon, aidé d'une Compagnie constituée de Hobbits, d'Hommes, d'un Magicien, d'un Nain, et d'un Elfe, ne parvienne à
+                    emporter l'Anneau à travers la Terre du Milieu jusqu'à la Crevasse du Destin, lieu où il a été forgé, et à le détruire pour toujours. Un tel périple signifie s'aventurer très loin en Mordor, les terres du Seigneur des ténèbres,
+                    où est rassemblée son armée d'Orques maléfiques... La Compagnie doit non seulement combattre les forces extérieures du mal mais aussi les dissensions internes et l'influence corruptrice qu'exerce l'Anneau lui-même. L'issue de
+                    l'histoire à venir est intimement liée au sort de la Compagnie.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+          <div class="movieSection">
+            <div id="movie7" class="movies">
+              <a href="#rdbDesc" data-toggle="collapse"><img src="/p3/img/films/rdb.jpg" alt="Robin des bois" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="rdbInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Wolfgang Reitherman</p>
+                <p><span class="bold">Année:</span> 1973</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 8 août 2019 - 22h45</p>
+
+                <a href="#rdbBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="rdbBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email7" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="rdbDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>Un coq troubadour, qui se présente comme Adam de la Halle, narre l'histoire du renard Robin des Bois et de l'ours Petit Jean qui vivent dans la forêt de Sherwood, près de la ville de Nottingham. L'histoire se situe dans
+                    l'Angleterre médiévale du Royaume des Animaux. Le roi Richard Cœur de Lion est parti aux Croisades et son frère, le prince Jean, a usurpé la couronne avec l'aide de son conseiller le serpent Triste Sire. Alors que le prince
+                    cherche à s'emparer de toutes les richesses du royaume, Robin vole, de son côté, les riches pour donner leurs biens aux pauvres. Le shérif de Nottingham, un loup bedonnant, et ses soldats essayent souvent d'attraper Robin des
+                    Bois et Petit Jean, mais sans succès. Un jour, le prince Jean et Triste Sire se rendent à Nottingham et on apprend que le serpent a hypnotisé Richard Cœur de Lion pour le convaincre de partir en croisade et laisser ainsi le trône
+                    à son frère. Sur le chemin, Robin et Petit Jean déguisés en diseuses de bonne fortune interpellent le prince Jean et profitent de la situation pour lui dérober ses biens. Le prince lance alors une prime sur la tête de Robin et
+                    fait du shérif son percepteur d'impôts personnel.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="movie8" class="movies">
+              <a href="#isDesc" data-toggle="collapse"><img src="/p3/img/films/is.jpg" alt="Interstellar" class="img-responsive img-movies" />
+                <div class="expandMovie"><span class="fa fa-chevron-down"></span></div>
+              </a>
+              <div id="isInfo" class="moviesInfo">
+                <p><span class="bold">Réalisateur:</span> Christopher Nolan</p>
+                <p><span class="bold">Année:</span> 2014</p>
+                <p><span class="bold">Casting:</span> Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Mackenzie Foy</p>
+                <p><span class="colorTitle bold">Diffusion:</span> 8 août 2019 - 00h00</p>
+
+                <a href="#isBook" data-toggle="collapse" class="linkBookMovie">
+                  <div class="expandBookMovie">Réserver mes places</div>
+                </a>
+                <div id="isBook" class="movieBook collapse">
+                  <div class="form-group">
+                    <select size="1">
+                      <option>0 place
+                      <option>1 place
+                      <option>2 places
+                      <option>3 places
+                      <option>4 places
+                      <option>5 places
+                    </select>
+                    <input id="email8" type="email" class="form-control" placeholder="Votre email">
+                    <button class="bookButton">Valider</button>
+                  </div>
+                </div>
+
+                <div id="isDesc" class="moviesDesc collapse">
+                  <br />
+                  <div class="moviesLine"></div>
+                  <p>Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage
+                    interstellaire.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar navbar-inverse navbar-bottom">
+    <div class="container">
+      <footer class="row">
+        <aside id="copyRight" class="col-md-3 text-center">Les Films de Plein Air © 2018</aside>
+        <aside id="by" class="col-md-offset-1 col-md-4 text-center">Site réalisé par Thomas Rousseau</aside>
+        <aside id="legals" class="col-md-offset-1 col-md-3 text-center"><a href="#" title="Mentions légales">Mentions légales</a></aside>
+      </footer>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Javascript de Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

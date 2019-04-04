@@ -1,0 +1,412 @@
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: 0%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+
+/* General */
+body {
+  background-image: url('/p3/img/522.png');
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+  min-width: 480px;
+}
+
+h1, h2, h3 {
+  font-family: "Allan", sans-serif;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+
+.mainPage {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.form-group {
+  display: flex;
+}
+
+.colorTitle {
+  font-weight: bold;
+  color: #FA866C;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-color: #FFF;
+  font-size: 3em;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.sections {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.active a {
+  background-color: #36ce96 !important;
+}
+
+th, td {
+  text-align: center;
+}
+
+button {
+  background-color: rgba(54, 206, 150, 0.18);
+  border: 1px #36CE96 solid;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #36CE96;
+  color: white;
+}
+
+.panel-custom {
+  border-color: #36ce96;
+  background-color: rgba(54, 206, 150, 0.18);
+  color: #2ebdb3;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.table-bordered {
+  background-color: white;
+  color: black;
+}
+
+/* End General */
+/* Menu bar et Footer bar */
+.navbar {
+  box-shadow: 0px 0px 15px #36ce96;
+}
+
+.navbar-inverse {
+  background-image: url('/p3/img/bg.jpg');
+}
+
+.navbar-brand {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.navbar-nav a {
+  color: white !important;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgba(54, 206, 150, 0.55);
+  border-radius: 5px;
+}
+
+.nav-item:focus {
+  background-color: rgba(54, 206, 150, 0.55);
+  border-radius: 5px;
+}
+
+/* Footer bar only */
+.navbar-bottom {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+footer, footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer a:hover {
+  color: inherit;
+}
+
+footer aside {
+  padding-top: 15px;
+}
+
+/* Index page /*
+/* Slider CSS */
+#sliderSection {
+  margin-bottom: 50px;
+  margin: auto;
+}
+
+#slider {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+#sliderText {
+  position: absolute;
+  z-index: 1;
+  font-size: 4em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 0.5em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #FA866C;
+  margin-top: 60px;
+}
+
+/* thirdSection */
+#bandImg {
+  max-width: 100%;
+  margin-top: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px black;
+}
+
+#mapAccess iframe {
+  width: 100%;
+}
+
+#thirdSection aside {
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 35px;
+}
+
+#buttonBooking {
+  display: inline-block;
+  background-color: rgba(54, 206, 150, 0.18);
+  border: 1px #36CE96 solid;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: #2ebdb3;
+}
+
+#buttonBooking:hover {
+  background-color: #36CE96;
+  color: white;
+  text-decoration: none;
+}
+
+/* lastSection */
+#popcornImg {
+  max-width: 100%;
+  margin-top: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px black;
+}
+
+/* news page */
+#newsSection1 {
+  margin-bottom: 20px;
+}
+
+.news {
+  background-color: #FFF;
+  border: 10px #f0f0f0 solid;
+  transition: scale, border, 0.25s ease-in;
+}
+
+.newsTitle {
+  background-color: white;
+}
+
+.news:hover, .news:focus {
+  border: 10px rgba(0, 0, 0, 0) solid;
+  transform: scale(1.05);
+}
+
+.newsInfo {
+  margin: 20px;
+}
+
+.newsLine {
+  border-bottom: 5px #dbdbdb solid;
+  margin-bottom: 10px;
+}
+
+.newsTxt {
+  text-align: justify;
+}
+
+/* Movies page */
+.movieSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.movies {
+  margin: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #FFF;
+}
+
+.movies:hover, .movies:focus {
+  box-shadow: 0px 0px 15px #36ce96;
+}
+
+.img-movies {
+  margin: auto;
+}
+
+.moviesInfo {
+  margin: 20px;
+}
+
+.expandMovie {
+  background-color: rgba(54, 206, 150, 0.20);
+  height: 30px;
+  text-align: center;
+}
+
+.expandMovie:hover {
+  background-color: rgba(54, 206, 150, 0.40);
+}
+
+.fa-chevron-down {
+  margin-top: 8px;
+}
+
+.linkBookMovie:hover {
+  text-decoration: none;
+}
+
+.expandBookMovie {
+  background-color: rgba(54, 206, 150, 0.20);
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border: 1px #36CE96 solid;
+  border-radius: 3px;
+  padding: 5px;
+  color: #2ebdb3;
+}
+
+.expandBookMovie:hover {
+  background-color: rgba(54, 206, 150, 0.40);
+}
+
+.movieBook select {
+  margin-right: 2px;
+  min-width: 20%;
+}
+
+.movieBook input {
+  max-width: 50%;
+}
+
+.movieBook {
+  margin-top: 5px;
+}
+
+.bookButton {
+  margin-top: 5px;
+  margin-left: 2px;
+  border-radius: 5px;
+  color: #2ebdb3;
+}
+
+.moviesLine {
+  border-bottom: 5px #dbdbdb solid;
+  margin-bottom: 10px;
+}
+
+.moviesDesc {
+  text-align: justify;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 991px) {
+  #sliderText {
+    font-size: 3em;
+  }
+
+  #newsSection1 {
+    margin-bottom: -20px;
+  }
+
+  .news {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #sliderText {
+    font-size: 2em;
+  }
+}
